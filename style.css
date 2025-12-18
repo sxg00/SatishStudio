@@ -88,3 +88,183 @@
     @media (max-width: 600px) {
       .watermark img { width: 80px; }
     }
+
+    /* testimonials structure */
+
+    .testmonials {
+	background: #333 url('../img/back.jpg') center center no-repeat fixed;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+.testmonials .client h3 {
+	color: #fff;
+	font-size: 2rem;
+	margin: 10px auto;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+.testmonials .client h3 + p {
+	font-size: 1.2rem;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #ccc;
+}
+.testmonials .client .stars {
+    margin: 10px auto;
+}
+.testmonials .client .stars span {
+    font-size: 1.5rem;
+    margin:  0 5px;
+}
+.testmonials .opinion i {
+	display: inline-block;
+	font-size: 2rem;
+	margin: 10px auto;
+	line-height: 1;
+}
+.testmonials .opinion i.reversed {margin-bottom: 0;}
+.testmonials .opinion p {
+	width: 75%;
+	margin: 0 auto;
+	line-height: 1.7;
+	letter-spacing: 2px;
+	font-style: italic;
+	color: #eee;
+}
+
+.test-owl .owl-dots {
+  position: absolute;
+  top: 10px;          /* adjust as needed */
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+
+
+
+/* ---------------------------------------
+			Start Global Styles
+----------------------------------------- */
+
+
+
+.heading-line {
+	height: 3px;
+	width: 100px;
+	background: #333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	position: relative;
+}
+.main-para {
+	margin: 0 auto;
+	letter-spacing: 1.5px;
+}
+.center {text-align: center;}
+.left {float: left;}
+.right {float: right;}
+/* End Global Styles */
+
+/* Move dots to the bottom */
+.owl-dots {
+  text-align: center;
+  
+  margin-bottom: 10px;  /* Add margin at the bottom for spacing */
+}
+
+.owl-dot {
+  display: inline-block;
+}
+
+.owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background: #ccc;
+  display: block;
+  border-radius: 50%;
+}
+
+.owl-dot.active span {
+  background: #000;
+}
+
+/* Ensure the carousel container is positioned for the dots and arrows */
+.test-owl {
+  position: relative;  /* Make sure the container is positioned */
+  overflow: visible;
+}
+
+/* Navigation arrows */
+.owl-nav {
+  position: absolute;   /* Positioning arrows */
+  top: 50%;             /* Center arrows vertically */
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Space out the arrows */
+  z-index: 10;          /* Ensure arrows are above the carousel items */
+}
+
+.owl-prev, .owl-next {
+  background: rgba(0, 0, 0, 0.5);  /* Add background to arrows */
+  color: white;           /* White arrow color */
+  padding: 10px;
+  border-radius: 50%;     /* Make arrows rounded */
+  font-size: 20px;        /* Adjust size of the arrows */
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Optional: Change arrow hover effects */
+.owl-prev:hover, .owl-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Client Photos */
+/* Flexbox container for each client */
+.client-info {
+  display: flex;  /* Make the container a flexbox */
+  align-items: center;  /* Vertically center the items */
+  justify-content: center;  /* Add space between the photo and opinion */
+  gap:30px;
+  margin: 20px;  /* Adjust spacing between client items */
+}
+
+/* Styling for client photo */
+
+.client-photo {
+border-radius: 50%;
+}
+/* Opinion text */
+.opinion {
+  max-width: 500px;  /* Limit the width of the opinion box */
+  text-align: left;  /* Align text to the left */
+}
+
+.opinion h3 {
+  font-size: 18px;
+  margin-bottom: 10px;  /* Space between name and quote */
+  line-height: 1.6;
+  padding-left: 60px;
+}
+
+.opinion p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+i.fa-quote-left, i.fa-quote-right {
+  font-size: 20px;
+  color: #ccc;
+}
+
+
+
+
+
