@@ -217,6 +217,7 @@
 /* Optional: Change arrow hover effects */
 .owl-prev:hover, .owl-next:hover {
   background: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
 }
 
 /* Client Photos */
