@@ -92,10 +92,11 @@
     /* testimonials structure */
 
     .testmonials {
-	background: #333 url('../img/back.jpg') center center no-repeat fixed;
+	background: #2563eb; /*url('../img/back.jpg') center center no-repeat fixed; */
 	background-size: cover;
 	color: #fff;
 	position: relative;
+  border-radius: 20px;
 	padding-bottom: 80px;
 	padding-top: 80px;
 }
@@ -137,7 +138,7 @@
 
 .test-owl .owl-dots {
   position: absolute;
-  top: 10px;          /* adjust as needed */
+  /* top: 10px;          adjust as needed */
   left: 0;
   right: 0;
   text-align: center;
@@ -258,7 +259,34 @@ i.fa-quote-left, i.fa-quote-right {
   color: #ccc;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color:#2563eb;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 9000;
+}
 
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.top{
+  margin-top: 30px;
+}
 
 
 
